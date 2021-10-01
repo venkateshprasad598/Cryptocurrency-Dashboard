@@ -1,4 +1,8 @@
 .lowerBody {
   background-color: #56b4e0;
-  min-height: 30vh;
+}
+
+.lowerBody {
+  display: flex;
+  justify-content: space-between;
 }

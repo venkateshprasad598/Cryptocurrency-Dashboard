@@ -1,10 +1,13 @@
 import React from "react";
+import LowerBodyLeft from "../LowerBodyLeft/LowerBodyLeft";
+import LowerBodyRight from "../LowerBodyRight/LowerBodyRight";
 import "./LowerBody.css";
 
 const LowerBody = () => {
   return (
     <div className="lowerBody">
-      <h1>LowerBody</h1>
+      <LowerBodyLeft />
+      <LowerBodyRight />
     </div>
   );
 };

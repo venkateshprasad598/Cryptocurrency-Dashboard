@@ -1,0 +1,21 @@
+.lowerBodyLeft {
+  width: 60%;
+  background-color: yellow;
+}
+.lowerBodyLeft__details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.lowerBodyLeft__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  width: 48%;
+  margin-top: 1rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}

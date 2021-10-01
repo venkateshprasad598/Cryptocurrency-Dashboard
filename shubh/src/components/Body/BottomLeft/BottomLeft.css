@@ -1,0 +1,8 @@
+.bottomLeft {
+  margin-top: 1rem;
+}
+
+.bottomLeft__img {
+  height: 250px;
+  object-fit: contain;
+}

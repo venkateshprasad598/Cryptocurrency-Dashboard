@@ -1,5 +1,8 @@
 .bottomLeft {
   /* margin-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .bottomLeft__img {
@@ -8,7 +11,6 @@
 }
 .bottomLeft__wallet {
   display: flex;
-  margin-top: 0.5rem;
   justify-content: space-between;
 }
 .bottomLeft__walletInfo {

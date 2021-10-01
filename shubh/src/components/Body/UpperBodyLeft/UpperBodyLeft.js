@@ -3,6 +3,7 @@ import "./UpperBodyLeft.css";
 import cryptoIcons from "../../data/cryptoIcons";
 import BottomLeft from "../BottomLeft/BottomLeft";
 import BottomRight from "../BottomRight/BottomRight";
+import BottomRightMarket from "../BottomRightMarket.js/BottomRightMarket";
 
 const UpperBodyLeft = () => {
   return (
@@ -23,6 +24,7 @@ const UpperBodyLeft = () => {
       <div className="upperBodyLeft__bottom">
         <BottomLeft />
         <BottomRight />
+        <BottomRightMarket />
       </div>
     </div>
   );

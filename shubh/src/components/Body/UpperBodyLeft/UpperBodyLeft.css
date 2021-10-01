@@ -1,5 +1,6 @@
 .upperBodyLeft {
   background-color: brown;
+  width: 100%;
 }
 
 .upperBodyLeft__icons {
@@ -18,8 +19,10 @@
   margin-top: 1rem;
 }
 .upperBodyLeft__bottom {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+  height: 395px;
   background-color: violet;
 }

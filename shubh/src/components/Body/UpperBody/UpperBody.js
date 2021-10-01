@@ -6,7 +6,7 @@ const UpperBody = () => {
   return (
     <div className="upperBody">
       <UpperBodyLeft />
-      <UpperBodyRight />
+      {/* <UpperBodyRight /> */}
     </div>
   );
 };

@@ -40,3 +40,4 @@ const market = [
     time: "8:30 AM",
   },
 ];
+export default market;

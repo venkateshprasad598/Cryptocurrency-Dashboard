@@ -1,0 +1,14 @@
+.bottomRightMarket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottomRightMarket__info {
+  display: flex;
+  background-color: whitesmoke;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+.bottomRightMarket__img {
+  height: 20px;
+}

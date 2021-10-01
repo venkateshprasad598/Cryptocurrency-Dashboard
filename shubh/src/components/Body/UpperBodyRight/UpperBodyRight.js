@@ -1,9 +1,14 @@
 import React from "react";
-
+import { FaBitcoin } from "react-icons/fa";
 const UpperBodyRight = () => {
   return (
-    <div>
-      <h1>UpperBodyRight</h1>
+    <div className="UpperBodyRight">
+      <form className="UpperBodyRight__form">
+        <input type="text" />
+        <FaBitcoin />
+      </form>
+
+      <div></div>
     </div>
   );
 };

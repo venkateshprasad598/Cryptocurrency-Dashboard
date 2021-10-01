@@ -20,4 +20,6 @@
 .upperBodyLeft__bottom {
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
+  background-color: violet;
 }

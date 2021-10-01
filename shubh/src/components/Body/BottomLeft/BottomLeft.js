@@ -14,7 +14,7 @@ const BottomLeft = () => {
         {walletData.map((data) => {
           const { id, wallet, balance, icon } = data;
           return (
-            <div key={id}>
+            <div key={id} className="bottomLeft__walletInfo">
               <p>{wallet}</p>
               <h2>{balance}</h2>
               {icon}

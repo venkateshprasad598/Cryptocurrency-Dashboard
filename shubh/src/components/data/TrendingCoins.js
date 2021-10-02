@@ -18,7 +18,7 @@ const TrendingCoins = [
     id: new Date().getTime(),
     name: "XRP/USD",
     price: "$0.61688",
-    backgroundColor: "rgb(230, 223, 247)",
+    backgroundColor: "rgb(181, 170, 250)",
     icon: <CgArrowTopLeft />,
   },
   {

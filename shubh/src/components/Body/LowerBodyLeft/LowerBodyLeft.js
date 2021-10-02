@@ -11,7 +11,7 @@ const LowerBodyLeft = () => {
           return (
             <div key={id} className="lowerBodyLeft__info">
               <div>
-                <h3 className="lowerBodyLeft__Name">{name}</h3>
+                <h5 className="lowerBodyLeft__Name">{name}</h5>
                 <p className="lowerBodyLeft__subName">{subName}</p>
               </div>
               <p style={{ color: iconColor }}> {icon}</p>

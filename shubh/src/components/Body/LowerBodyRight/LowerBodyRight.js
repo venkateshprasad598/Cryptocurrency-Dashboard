@@ -24,7 +24,7 @@ const LowerBodyRight = () => {
                 }
               >
                 <div className="lowerBodyRight__data">
-                  <h3>{name}</h3>
+                  <h5>{name}</h5>
                   <p
                     className="lowerBodyRight__subName"
                     style={{ color: color }}

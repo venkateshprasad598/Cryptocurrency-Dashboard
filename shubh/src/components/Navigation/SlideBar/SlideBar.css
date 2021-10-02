@@ -1,0 +1,16 @@
+.slidebar {
+  width: 100%;
+  border: 1px solid rgb(38, 139, 80);
+  background-color: rgb(38, 139, 80);
+}
+
+.slidebar__info {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.slidebar__info:hover {
+  color: purple;
+}
+.slidebar__name {
+  margin-left: 1rem;
+}

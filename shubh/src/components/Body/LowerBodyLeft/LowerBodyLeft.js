@@ -4,7 +4,7 @@ import security from "../../data/Security";
 const LowerBodyLeft = () => {
   return (
     <div className="lowerBodyLeft">
-      <h2>SECURITY</h2>
+      <h3>SECURITY</h3>
       <div className="lowerBodyLeft__details">
         {security.map((data) => {
           const { id, name, subName, icon, iconColor } = data;

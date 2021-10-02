@@ -1,6 +1,6 @@
 .lowerBodyLeft {
   width: 55%;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .lowerBodyLeft__details {
   display: flex;
@@ -22,4 +22,9 @@
 .lowerBodyLeft__subName {
   color: gray;
   font-size: 0.7rem;
+}
+@media (max-widthh: 700px) {
+  .lowerBodyLeft {
+    width: 100%;
+  }
 }

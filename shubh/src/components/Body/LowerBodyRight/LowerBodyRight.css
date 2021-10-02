@@ -11,7 +11,7 @@
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  background-color: white;
+  /* background-color: white; */
   box-sizing: border-box;
   margin-top: 1.2rem;
 }
@@ -19,7 +19,7 @@
   width: 45%;
   display: flex;
   justify-content: flex-end;
-  background-color: white;
+  /* background-color: white; */
   box-sizing: border-box;
   margin-top: 1.2rem;
 }

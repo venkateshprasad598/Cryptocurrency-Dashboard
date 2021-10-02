@@ -5,7 +5,7 @@ import mining from "../../data/Mining";
 const LowerBodyRight = () => {
   return (
     <div className="lowerBodyRight ">
-      <h2>MINING STATUS</h2>
+      <h3>MINING STATUS</h3>
       <div className="lowerBodyRight__mining">
         {mining.map((data) => {
           const { img, name, run, color, icon, iconColor } = data;

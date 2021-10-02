@@ -1,8 +1,14 @@
 .lowerBody {
-  background-color: #56b4e0;
+  /* background-color: #56b4e0; */
 }
 
 .lowerBody {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .lowerBody {
+    display: flex;
+    flex-direction: column;
+  }
 }

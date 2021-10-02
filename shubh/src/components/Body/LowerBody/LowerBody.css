@@ -1,8 +1,4 @@
 .lowerBody {
-  /* background-color: #56b4e0; */
-}
-
-.lowerBody {
   display: flex;
   justify-content: space-between;
 }

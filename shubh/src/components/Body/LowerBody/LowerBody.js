@@ -5,6 +5,7 @@ import "./LowerBody.css";
 
 const LowerBody = () => {
   return (
+    // COMMENT - LOWER BODY INCLUDES 2 COMPONENTS
     <div className="lowerBody">
       <LowerBodyLeft />
       <LowerBodyRight />

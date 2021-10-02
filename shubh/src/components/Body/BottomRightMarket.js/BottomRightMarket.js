@@ -3,6 +3,7 @@ import market from "../../data/marketData";
 import "./BottomRightMarket.css";
 
 const BottomRightMarket = () => {
+  // COMMENT - CALLING DATA FROM data AND DISPLAYING FIVE COMPANIES MARKET VALUE
   return (
     <div className="bottomRightMarket">
       {market.map((data) => {

@@ -10,6 +10,7 @@ const BottomLeft = () => {
         alt="BitcoinImg"
         className="bottomLeft__img"
       />
+      {/* COMMENT - 2 SUBCOMPONRNTS BELOW IMAGES */}
       <div className="bottomLeft__wallet">
         {walletData.map((data) => {
           const { id, wallet, balance, icon, color } = data;

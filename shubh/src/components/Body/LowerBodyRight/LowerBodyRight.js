@@ -3,6 +3,7 @@ import "./LowerBodyRight.css";
 import mining from "../../data/Mining";
 
 const LowerBodyRight = () => {
+  // LOWER BODY RIGHT - INCLUDES ALL DATA RELATED TO SECURITY
   return (
     <div className="lowerBodyRight ">
       <h3>MINING STATUS</h3>

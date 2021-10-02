@@ -1,12 +1,12 @@
 import React from "react";
 import "./UpperBody.css";
 import UpperBodyLeft from "../UpperBodyLeft/UpperBodyLeft";
-import UpperBodyRight from "../UpperBodyRight/UpperBodyRight";
+
+// UPPER BODY INCLUDES - WELCOME TO DASHBOARD, SEARCH AND OVERIEW
 const UpperBody = () => {
   return (
     <div className="upperBody">
       <UpperBodyLeft />
-      {/* <UpperBodyRight /> */}
     </div>
   );
 };

@@ -4,6 +4,7 @@ import "./BottomRight.css";
 
 const BottomRight = () => {
   return (
+    // CCOMMENT - CALLING ALL DATA FROM data FOLDER AND DISPLAYING FOUR TRENDING COINS.
     <div className="bottomRight">
       {TrendingCoins.map((data) => {
         const { id, name, price, backgroundColor, icon } = data;

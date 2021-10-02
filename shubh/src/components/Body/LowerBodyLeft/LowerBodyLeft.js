@@ -2,6 +2,7 @@ import React from "react";
 import "./LowerBodyLeft.css";
 import security from "../../data/Security";
 const LowerBodyLeft = () => {
+  // LOWER BODY LEFT - INCLUDES ALL DATA RELATED TO SECURITY
   return (
     <div className="lowerBodyLeft">
       <h3>SECURITY</h3>

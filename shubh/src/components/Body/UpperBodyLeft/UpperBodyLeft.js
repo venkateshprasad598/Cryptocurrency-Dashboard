@@ -8,11 +8,14 @@ import Search from "../Search/Search";
 
 const UpperBodyLeft = () => {
   return (
+    //THIS INCLUDES WELCOME TO DASHBOARD DATA, SEARCH COMPONENT AND OVERVIEW
     <div className="upperBodyLeft">
+      {/* COMMENT - WELCOME TO DASHBOARD AND SEARCH COMPONENT */}
       <div className="upperBodyLeft__allInfo">
         <div className="upperBodyLeft__info">
           <h2 className="upperBodyLeft__infoHeadLine">WELCOME TO DASHBOARD</h2>
           <div className="upperBodyLeft__icons">
+            {/* COMMENT - DATA ARE BEING FETCHED FROM data FOLDER */}
             {cryptoIcons.map((data) => {
               const { id, icon } = data;
               return (
@@ -27,6 +30,8 @@ const UpperBodyLeft = () => {
         </div>
         <Search />
       </div>
+
+      {/* COMMENT - DOWN HERE INCLUDES 3 COMPONENTS OF OVERVIEW 1) BOTTOM LEFT - CRYPTO IMAGE AND 2 SMALL SUB COMPONENT 2 ) BOTTOM RIGHT - WHICH SHOWS ALL FOUR TRENDING CRYPTOS 3 ) BOTTOM RIGHT MARKET - SHOWS 5 COMPANIES MARKET VALUE  */}
 
       <h3 className="upperBodyLeft__overview">OVERVIEW</h3>
       <div className="upperBodyLeft__bottom">

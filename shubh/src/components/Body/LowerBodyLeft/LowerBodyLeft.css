@@ -1,5 +1,5 @@
 .lowerBodyLeft {
-  width: 60%;
+  width: 55%;
   background-color: yellow;
 }
 .lowerBodyLeft__details {
@@ -13,9 +13,13 @@
   align-items: center;
   justify-content: space-between;
   background-color: whitesmoke;
-  width: 48%;
-  margin-top: 1rem;
+  width: 49%;
+  margin-top: 1.2rem;
   border-radius: 5px;
   box-sizing: border-box;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.lowerBodyLeft__subName {
+  color: gray;
+  font-size: 0.7rem;
 }

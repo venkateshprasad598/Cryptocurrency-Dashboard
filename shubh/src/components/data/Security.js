@@ -1,28 +1,33 @@
-import { FaBitcoin } from "react-icons/fa";
+import { BsToggleOn } from "react-icons/bs";
+import { BiToggleLeft } from "react-icons/bi";
 const security = [
   {
     id: new Date().getTime(),
     name: "Identity",
     subName: "Disable",
-    icon: <FaBitcoin />,
+    icon: <BsToggleOn />,
+    iconColor: "green",
   },
   {
     id: new Date().getTime(),
     name: "Phone",
     subName: "Enable",
-    icon: <FaBitcoin />,
+    icon: <BiToggleLeft />,
+    color: "black",
   },
   {
     id: new Date().getTime(),
     name: "Identity",
     subName: "Disable",
-    icon: <FaBitcoin />,
+    icon: <BiToggleLeft />,
+    color: "grey",
   },
   {
     id: new Date().getTime(),
     name: "Phone",
     subName: "Enable",
-    icon: <FaBitcoin />,
+    icon: <BsToggleOn />,
+    iconColor: "green",
   },
 ];
 export default security;

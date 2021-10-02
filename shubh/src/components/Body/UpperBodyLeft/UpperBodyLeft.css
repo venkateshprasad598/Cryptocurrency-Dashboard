@@ -3,17 +3,8 @@
   width: 100%;
 }
 
-.upperBodyLeft__icons {
+.upperBodyLeft__top {
   display: flex;
-  margin-top: 0.5rem;
-  flex-direction: row;
-}
-.upperBodyLeft__icon {
-  background-color: white;
-  margin-right: 1.5rem;
-  padding: 10px;
-  color: purple;
-  border-radius: 5px;
 }
 .upperBodyLeft__overview {
   margin-top: 1rem;

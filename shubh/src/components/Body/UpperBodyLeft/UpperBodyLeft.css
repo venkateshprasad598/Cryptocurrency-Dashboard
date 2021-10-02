@@ -1,5 +1,5 @@
 .upperBodyLeft {
-  background-color: brown;
+  /* background-color: brown; */
   width: 100%;
 }
 .upperBodyLeft__allInfo {
@@ -41,10 +41,9 @@
 .upperBodyLeft__bottom {
   width: 100%;
   display: flex;
-
   justify-content: space-between;
   margin-top: 1rem;
-  background-color: violet;
+  /* background-color: violet; */
 }
 
 @media (max-width: 700px) {

@@ -5,7 +5,7 @@
 }
 
 .bottomLeft__img {
-  height: 250px;
+  height: 254px;
   object-fit: cover;
   width: 100%;
 }
@@ -24,6 +24,10 @@
   justify-content: center;
   padding: 2.5rem 0.9rem;
   border-radius: 5px;
+}
+.bottomLeft__walletName {
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
 }
 @media (max-width: 700px) {
   .bottomLeft__walletInfo {

@@ -1,6 +1,7 @@
 .App {
   display: flex;
   height: 150vh;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 h2 {

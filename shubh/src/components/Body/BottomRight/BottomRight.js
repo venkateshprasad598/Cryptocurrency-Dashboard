@@ -12,6 +12,7 @@ const BottomRight = () => {
             className="bottomRight__coins"
             key={id}
             style={{ backgroundColor: backgroundColor }}
+            key={id}
           >
             <p className="bottomRight__coinsName">{name}</p>
             <div className="bottomRight__coinPrice">

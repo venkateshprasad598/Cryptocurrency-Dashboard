@@ -15,7 +15,7 @@ const BottomLeft = () => {
           const { id, wallet, balance, icon, color } = data;
           return (
             <div key={id} className="bottomLeft__walletInfo">
-              <p className="bottomLeft__walletName">{wallet}</p>
+              <p className="bottomLeft__wallet">{wallet}</p>
               <h2>{balance}</h2>
               <p style={{ color: color }}> {icon}</p>
             </div>

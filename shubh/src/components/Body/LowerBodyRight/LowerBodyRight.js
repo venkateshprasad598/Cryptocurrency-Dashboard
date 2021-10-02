@@ -8,7 +8,7 @@ const LowerBodyRight = () => {
       <h3>MINING STATUS</h3>
       <div className="lowerBodyRight__mining">
         {mining.map((data) => {
-          const { img, name, run, color, icon, iconColor } = data;
+          const { id, img, name, run, color, icon, iconColor } = data;
           return (
             <div
               className={
@@ -16,6 +16,7 @@ const LowerBodyRight = () => {
                   ? "lowerBodyRight__miningData"
                   : "lowerBodyRight__miningData2"
               }
+              key={id}
             >
               <img src={img} alt="" className="lowerBodyRight__img" />
               <div

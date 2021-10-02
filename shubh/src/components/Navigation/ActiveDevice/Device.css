@@ -1,15 +1,13 @@
 .device {
-  background-color: royalblue;
+  margin-top: 3rem;
 }
 .devices {
   margin-top: 1rem;
-  background-color: saddlebrown;
 }
 
 .device__info {
   display: flex;
   align-items: center;
-  background-color: yellow;
   margin-bottom: 1rem;
 }
 .device__type {

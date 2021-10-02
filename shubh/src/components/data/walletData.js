@@ -1,16 +1,18 @@
-import { FaBitcoin } from "react-icons/fa";
+import { FaBitcoin, FaEthereum } from "react-icons/fa";
 const walletData = [
   {
     id: new Date().getTime(),
     wallet: "NioWallet",
     balance: "4.434953 NIO",
     icon: <FaBitcoin />,
+    color: "rgb(3, 207, 252)",
   },
   {
     id: new Date().getTime(),
     wallet: "Ethereum Wallet",
     balance: "0.000298 ETH",
-    icon: <FaBitcoin />,
+    icon: <FaEthereum />,
+    color: "rgb(4, 18, 20)",
   },
 ];
 

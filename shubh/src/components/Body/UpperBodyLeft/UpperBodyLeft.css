@@ -5,7 +5,6 @@
 .upperBodyLeft__allInfo {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 100%;
 }
 .upperBodyLeft__icons {
@@ -42,7 +41,7 @@
 .upperBodyLeft__bottom {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: space-between;
   margin-top: 1rem;
   background-color: violet;
@@ -51,6 +50,7 @@
 @media (max-width: 700px) {
   .upperBodyLeft__allInfo {
     text-align: center;
+    flex-wrap: wrap;
   }
   .upperBodyLeft__infoHeadLine {
     text-align: center;
@@ -65,5 +65,6 @@
   }
   .upperBodyLeft__bottom {
     align-items: center;
+    flex-wrap: wrap;
   }
 }

@@ -12,12 +12,12 @@ const BottomLeft = () => {
       />
       <div className="bottomLeft__wallet">
         {walletData.map((data) => {
-          const { id, wallet, balance, icon } = data;
+          const { id, wallet, balance, icon, color } = data;
           return (
             <div key={id} className="bottomLeft__walletInfo">
               <p>{wallet}</p>
               <h2>{balance}</h2>
-              {icon}
+              <p style={{ color: color }}> {icon}</p>
             </div>
           );
         })}

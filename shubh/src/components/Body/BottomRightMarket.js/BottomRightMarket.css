@@ -1,14 +1,39 @@
 .bottomRightMarket {
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.bottomRightMarket__info {
+.bottomRightMarket__allInfo {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: whitesmoke;
   padding: 0.7rem;
   border-radius: 5px;
 }
+.bottomRightMarket__info {
+  display: flex;
+  align-items: center;
+}
 .bottomRightMarket__img {
-  height: 20px;
+  height: 50px;
+  object-fit: cover;
+  width: 50px;
+  border-radius: 10px;
+}
+.bottomRightMarket__name {
+  margin-left: 0.5rem;
+}
+.name {
+  font-size: 1rem;
+}
+.nameUnderLine {
+  font-size: 0.8rem;
+  color: gray;
+}
+.bottomRightMarket__price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }

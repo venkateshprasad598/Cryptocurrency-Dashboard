@@ -6,21 +6,25 @@ const BottomRightMarket = () => {
   return (
     <div className="bottomRightMarket">
       {market.map((data) => {
-        const { id, img, name, category, price, time } = data;
+        const { id, img, name, category, price, time, color } = data;
         return (
-          <div className="bottomRightMarket__info" key={id}>
-            <img
-              src={img}
-              alt="markey_img"
-              className="bottomRightMarket__img"
-            />
-            <div>
-              <h3>{name}</h3>
-              <p>{category}</p>
+          <div className="bottomRightMarket__allInfo" key={id}>
+            <div className="bottomRightMarket__info">
+              <img
+                src={img}
+                alt="markey_img"
+                className="bottomRightMarket__img"
+              />
+              <div className="bottomRightMarket__name">
+                <h3 className="name">{name}</h3>
+                <p className="nameUnderLine">{category}</p>
+              </div>
             </div>
-            <div>
-              <h3>{price}</h3>
-              <p>{time}</p>
+            <div className="bottomRightMarket__price">
+              <h3 className="name" style={{ color: color }}>
+                {price}
+              </h3>
+              <p className="nameUnderLine">{time}</p>
             </div>
           </div>
         );

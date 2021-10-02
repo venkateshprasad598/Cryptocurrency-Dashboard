@@ -6,11 +6,18 @@ const BottomRight = () => {
   return (
     <div className="bottomRight">
       {TrendingCoins.map((data) => {
-        const { id, name, price } = data;
+        const { id, name, price, backgroundColor, icon } = data;
         return (
-          <div className="bottomRight__coins" key={id}>
-            <p>{name}</p>
-            <h2>{price}</h2>
+          <div
+            className="bottomRight__coins"
+            key={id}
+            style={{ backgroundColor: backgroundColor }}
+          >
+            <p className="bottomRight__coinsName">{name}</p>
+            <div className="bottomRight__coinPrice">
+              <h2>{price}</h2>
+              {icon}
+            </div>
           </div>
         );
       })}

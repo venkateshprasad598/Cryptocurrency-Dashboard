@@ -1,4 +1,13 @@
 import { FaBitcoin } from "react-icons/fa";
+import { FaEthereum } from "react-icons/fa";
+import {
+  FaCoins,
+  FaDollarSign,
+  FaCreativeCommonsPdAlt,
+  FaLemon,
+  FaMoneyBill,
+  FaMoneyBillWave,
+} from "react-icons/fa";
 
 const cryptoIcons = [
   {
@@ -7,31 +16,31 @@ const cryptoIcons = [
   },
   {
     id: 2,
-    icon: <FaBitcoin />,
+    icon: <FaEthereum />,
   },
   {
     id: 3,
-    icon: <FaBitcoin />,
+    icon: <FaDollarSign />,
   },
   {
     id: 4,
-    icon: <FaBitcoin />,
+    icon: <FaMoneyBillWave />,
   },
   {
     id: 5,
-    icon: <FaBitcoin />,
+    icon: <FaCreativeCommonsPdAlt />,
   },
   {
     id: 6,
-    icon: <FaBitcoin />,
+    icon: <FaMoneyBill />,
   },
   {
     id: 7,
-    icon: <FaBitcoin />,
+    icon: <FaLemon />,
   },
   {
     id: 8,
-    icon: <FaBitcoin />,
+    icon: <FaCoins />,
   },
 ];
 export default cryptoIcons;
